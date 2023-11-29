@@ -1,3 +1,5 @@
+#  Write a program to solve the 4 – Queens Problem. 
+#  Write a program to solve the n – Queens Problem.
 
 def solveNQueens( n: int) -> list[list[str]]:
     state= [["."] * n for _ in range(n)]
