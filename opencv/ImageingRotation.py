@@ -12,6 +12,6 @@ mat = cv2.getRotationMatrix2D(center, 90, 1)
 rotating = cv2.warpAffine(image, mat, (h, w))
 
 cv2.imshow('rotated', rotating)
-# cv2.imshow('rotated', mat)
+
 
 cv2.waitKey()
